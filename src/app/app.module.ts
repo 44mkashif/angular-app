@@ -25,7 +25,7 @@ import { ProductsHeaderComponent } from './components/home/components/products-h
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ProductsHeaderComponent
+    ProductsHeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,9 +42,9 @@ import { ProductsHeaderComponent } from './components/home/components/products-h
     MatTableModule,
     MatBadgeModule,
     MatSnackBarModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
