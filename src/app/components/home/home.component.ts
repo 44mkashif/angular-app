@@ -7,8 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   cols = 3;
+  selectedCategory: string | null = null;
 
   onColumnsCountChange(colsNum: number): void {
     this.cols = colsNum;
+  }
+
+  onCategorySelected(selectedCategory: string): void {
+    this.selectedCategory = selectedCategory;
   }
 }
