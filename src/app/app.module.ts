@@ -21,6 +21,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProductsHeaderComponent } from './components/home/components/products-header/products-header.component';
 import { FiltersComponent } from './components/filters/filters.component';
 import { ProductBoxComponent } from './components/product-box/product-box.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ProductBoxComponent } from './components/product-box/product-box.compon
     ProductsHeaderComponent,
     FiltersComponent,
     ProductBoxComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
