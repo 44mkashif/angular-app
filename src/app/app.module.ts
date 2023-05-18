@@ -20,6 +20,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductsHeaderComponent } from './components/home/components/products-header/products-header.component';
 import { FiltersComponent } from './components/filters/filters.component';
+import { ProductBoxComponent } from './components/product-box/product-box.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FiltersComponent } from './components/filters/filters.component';
     HomeComponent,
     ProductsHeaderComponent,
     FiltersComponent,
+    ProductBoxComponent,
   ],
   imports: [
     BrowserModule,
