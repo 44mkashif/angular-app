@@ -22,6 +22,7 @@ import { ProductsHeaderComponent } from './components/home/components/products-h
 import { FiltersComponent } from './components/filters/filters.component';
 import { ProductBoxComponent } from './components/product-box/product-box.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CartService } from './services/cart.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,7 @@ import { CartComponent } from './components/cart/cart.component';
     MatSnackBarModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
